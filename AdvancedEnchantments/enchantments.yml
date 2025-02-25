@@ -5054,49 +5054,49 @@ immolation:
       effects:
         - PARTICLE:FALLING_LAVA:5:0 @Aoe{radius=6,target=mobs}
         - BURN:60 @Aoe{radius=6,target=mobs}
-killaura:
-  display: '%group-color%Kill Aura'
-  description: |-
-    Chance to kill multiple
-    monsters in radius.
-  applies-to: Swords
-  group: LEGENDARY
-  type: ATTACK_MOB
-  settings:
-    showActionBar: true
-  applies:
-    - ALL_SWORD
-  levels:
-    '1':
-      chance: 5
-      cooldown: 3
-      effects:
-        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=2,target=mobs}
-        - KILL:1 @Aoe{radius=2,target=mobs}
-    '2':
-      chance: 8
-      cooldown: 4
-      effects:
-        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=2,target=mobs}
-        - KILL:1 @Aoe{radius=2,target=mobs}
-    '3':
-      chance: 12
-      cooldown: 5
-      effects:
-        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=3,target=mobs}
-        - KILL:1 @Aoe{radius=3,target=mobs}
-    '4':
-      chance: 15
-      cooldown: 5
-      effects:
-        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=3,target=mobs}
-        - KILL:1 @Aoe{radius=3,target=mobs}
-    '5':
-      chance: 18
-      cooldown: 6
-      effects:
-        - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=4,target=mobs}
-        - KILL:1 @Aoe{radius=4,target=mobs}
+# killaura:
+#   display: '%group-color%Kill Aura'
+#   description: |-
+#     Chance to kill multiple
+#     monsters in radius.
+#   applies-to: Swords
+#   group: LEGENDARY
+#   type: ATTACK_MOB
+#   settings:
+#     showActionBar: true
+#   applies:
+#     - ALL_SWORD
+#   levels:
+#     '1':
+#       chance: 5
+#       cooldown: 3
+#       effects:
+#         - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=2,target=mobs}
+#         - KILL:1 @Aoe{radius=2,target=mobs}
+#     '2':
+#       chance: 8
+#       cooldown: 4
+#       effects:
+#         - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=2,target=mobs}
+#         - KILL:1 @Aoe{radius=2,target=mobs}
+#     '3':
+#       chance: 12
+#       cooldown: 5
+#       effects:
+#         - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=3,target=mobs}
+#         - KILL:1 @Aoe{radius=3,target=mobs}
+#     '4':
+#       chance: 15
+#       cooldown: 5
+#       effects:
+#         - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=3,target=mobs}
+#         - KILL:1 @Aoe{radius=3,target=mobs}
+#     '5':
+#       chance: 18
+#       cooldown: 6
+#       effects:
+#         - PARTICLE:SPELL_MOB:5:0 @Aoe{radius=4,target=mobs}
+#         - KILL:1 @Aoe{radius=4,target=mobs}
 inquisitive:
   display: '%group-color%Inquisitive'
   description: Chance to increase EXP drops from mobs.
@@ -5406,102 +5406,102 @@ striker:
       cooldown: 8
       effects:
         - SPAWN_ARROWS @Victim
-sniper:
-  display: '%group-color%Sniper'
-  description: |-
-    Headshots with bows
-    deal double damage.
-  applies-to: Bow
-  type: SHOOT;SHOOT_MOB
-  settings:
-    showActionBar: true
-  group: ULTIMATE
-  applies:
-    - BOW
-  levels:
-    '1':
-      chance: 15
-      cooldown: 5
-      conditions:
-        - '%is headshot% = true : %allow%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
-    '2':
-      chance: 20
-      cooldown: 5
-      conditions:
-        - '%is headshot% = true : %allow%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
-    '3':
-      chance: 25
-      cooldown: 5
-      conditions:
-        - '%is headshot% = false : %stop%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
-    '4':
-      chance: 30
-      cooldown: 5
-      conditions:
-        - '%is headshot% = false : %stop%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
-    '5':
-      chance: 35
-      cooldown: 5
-      conditions:
-        - '%is headshot% = false : %stop%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
-deadshot:
-  display: '%group-color%Deadshot'
-  description: |-
-    Headshots with tridents
-    deal double damage.
-  applies-to: Trident
-  type: SHOOT;SHOOT_MOB
-  settings:
-    showActionBar: true
-  group: LEGENDARY
-  applies:
-    - TRIDENT
-  levels:
-    '1':
-      chance: 15
-      cooldown: 5
-      conditions:
-        - '%is headshot% = true : %allow%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
-    '2':
-      chance: 20
-      cooldown: 5
-      conditions:
-        - '%is headshot% = true : %allow%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
-    '3':
-      chance: 25
-      cooldown: 5
-      conditions:
-        - '%is headshot% = false : %stop%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
-    '4':
-      chance: 30
-      cooldown: 5
-      conditions:
-        - '%is headshot% = false : %stop%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
-    '5':
-      chance: 35
-      cooldown: 5
-      conditions:
-        - '%is headshot% = false : %stop%'
-      effects:
-        - INCREASE_DAMAGE:100 @Attacker
+# sniper:
+#   display: '%group-color%Sniper'
+#   description: |-
+#     Headshots with bows
+#     deal double damage.
+#   applies-to: Bow
+#   type: SHOOT;SHOOT_MOB
+#   settings:
+#     showActionBar: true
+#   group: ULTIMATE
+#   applies:
+#     - BOW
+#   levels:
+#     '1':
+#       chance: 15
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = true : %allow%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
+#     '2':
+#       chance: 20
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = true : %allow%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
+#     '3':
+#       chance: 25
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = false : %stop%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
+#     '4':
+#       chance: 30
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = false : %stop%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
+#     '5':
+#       chance: 35
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = false : %stop%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
+# deadshot:
+#   display: '%group-color%Deadshot'
+#   description: |-
+#     Headshots with tridents
+#     deal double damage.
+#   applies-to: Trident
+#   type: SHOOT;SHOOT_MOB
+#   settings:
+#     showActionBar: true
+#   group: LEGENDARY
+#   applies:
+#     - TRIDENT
+#   levels:
+#     '1':
+#       chance: 15
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = true : %allow%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
+#     '2':
+#       chance: 20
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = true : %allow%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
+#     '3':
+#       chance: 25
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = false : %stop%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
+#     '4':
+#       chance: 30
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = false : %stop%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
+#     '5':
+#       chance: 35
+#       cooldown: 5
+#       conditions:
+#         - '%is headshot% = false : %stop%'
+#       effects:
+#         - INCREASE_DAMAGE:100 @Attacker
 soulbound:
   display: '%group-color%Soulbound'
   description: A chance to keep item on death.
@@ -5577,30 +5577,30 @@ disarm:
       cooldown: 20
       effects:
         - DISARM @Victim
-phoenix:
-  display: '%group-color%Phoenix'
-  description: Chance to revive yourself when killed.
-  applies-to: Chestplates
-  type: DEATH
-  group: FABLED
-  applies:
-    - ALL_CHESTPLATE
-  levels:
-    '1':
-      chance: 5
-      cooldown: 20
-      effects:
-        - REVIVE @Victim
-    '2':
-      chance: 7
-      cooldown: 20
-      effects:
-        - REVIVE @Victim
-    '3':
-      chance: 9
-      cooldown: 20
-      effects:
-        - REVIVE @Victim
+# phoenix:
+#   display: '%group-color%Phoenix'
+#   description: Chance to revive yourself when killed.
+#   applies-to: Chestplates
+#   type: DEATH
+#   group: FABLED
+#   applies:
+#     - ALL_CHESTPLATE
+#   levels:
+#     '1':
+#       chance: 5
+#       cooldown: 20
+#       effects:
+#         - REVIVE @Victim
+#     '2':
+#       chance: 7
+#       cooldown: 20
+#       effects:
+#         - REVIVE @Victim
+#     '3':
+#       chance: 9
+#       cooldown: 20
+#       effects:
+#         - REVIVE @Victim
 scare:
   display: '%group-color%Scare'
   description: |-
