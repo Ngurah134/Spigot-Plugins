@@ -1,0 +1,25 @@
+{
+  "uuid": "5eada8ed-5d3e-3893-b48d-658bda4a05d7",
+  "disableCustomDrop": false,
+  "monsterCatch": 0,
+  "bigLootCatch": 0,
+  "failedFish": 2,
+  "goodFish": 2,
+  "tournamentsWin": 0,
+  "dropsMap": {
+    "1693242715663": {
+      "id": 1693242715663,
+      "allCatch": 1,
+      "maxSize": 0.0,
+      "minSize": 0.0
+    },
+    "1693160825756": {
+      "id": 1693160825756,
+      "allCatch": 1,
+      "maxSize": 1.565,
+      "minSize": 1.565
+    }
+  },
+  "level": 0,
+  "experience": 13.0
+}

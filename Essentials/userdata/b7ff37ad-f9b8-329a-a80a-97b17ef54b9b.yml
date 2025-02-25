@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.15.102.101
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1739123409646
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739125137735
+  login: 1739121099782
+money: '0'
+last-account-name: le_prz
+lastlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: 71.39650907585924
+  y: 84.48823916049263
+  z: -906.0054578471015
+  yaw: 107.17035675048828
+  pitch: 20.932785034179688
+logoutlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -453.6151064852668
+  y: 127.0
+  z: -1205.3270572467165
+  yaw: -86.744873046875
+  pitch: 8.059032440185547
+homes:
+  firsteverspawn:
+    world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+    world-name: prots
+    x: -16.923823175062537
+    y: 70.0
+    z: -42.67895758013557
+    yaw: 137.51666259765625
+    pitch: 0.5143598914146423
+  hub:
+    world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+    world-name: prots
+    x: -445.37865345016706
+    y: 126.0
+    z: -1202.2055441183477
+    yaw: 148.06683349609375
+    pitch: 27.593843460083008

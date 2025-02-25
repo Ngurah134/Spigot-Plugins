@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.245.223.252
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740495556896
+  login: 1740495562246
+money: '0'
+last-account-name: JoshTownHere
+lastlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: 0.5
+  y: 55.0
+  z: 0.5
+  yaw: 0.5052746534347534
+  pitch: 0.0
+logoutlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -469.8500260691716
+  y: 76.0
+  z: -1196.872406065618
+  yaw: 143.587890625
+  pitch: 11.84967041015625

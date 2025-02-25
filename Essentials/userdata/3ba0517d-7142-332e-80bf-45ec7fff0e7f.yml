@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.212.200.185
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1739978282791
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739981631236
+  login: 1739981291634
+money: '0'
+last-account-name: Krizzsky
+lastlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -84.74926912505985
+  y: 68.0
+  z: -570.1995918023732
+  yaw: 142.50714111328125
+  pitch: 8.850116729736328
+logoutlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -264.20410128326847
+  y: 69.0
+  z: -800.2014020324979
+  yaw: 134.84588623046875
+  pitch: -12.600005149841309

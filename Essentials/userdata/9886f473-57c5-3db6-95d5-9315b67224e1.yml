@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.105.138.224
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739290620083
+  login: 1739287544131
+money: '0'
+last-account-name: ShinxNishi
+lastlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -464.92089043452484
+  y: 93.47569686814451
+  z: -1187.4445361009248
+  yaw: -107.5751953125
+  pitch: 1.675947904586792
+logoutlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -475.0507200476952
+  y: 102.46747765253387
+  z: -1193.6370276809664
+  yaw: 112.52853393554688
+  pitch: -20.12822914123535

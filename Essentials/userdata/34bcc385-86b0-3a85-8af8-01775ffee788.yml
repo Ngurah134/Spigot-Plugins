@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.59.54.201
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739290654633
+  login: 1739287529178
+money: '0'
+last-account-name: chiyo
+lastlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -447.64948040360633
+  y: 131.14116482284908
+  z: -1216.5746060594963
+  yaw: -131.5404052734375
+  pitch: 2.3283743858337402
+logoutlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -447.30000001192093
+  y: 89.35736164698841
+  z: -1230.3590546848625
+  yaw: -90.8934326171875
+  pitch: 16.05447006225586

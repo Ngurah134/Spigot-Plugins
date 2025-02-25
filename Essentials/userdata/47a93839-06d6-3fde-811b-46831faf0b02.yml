@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.69.10.247
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1739801735304
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739801773722
+  login: 1739801469068
+money: '0'
+last-account-name: SakaXD
+lastlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -392.30000001192093
+  y: 119.8906579726442
+  z: -1156.692142697007
+  yaw: -124.76020050048828
+  pitch: 20.399930953979492
+homes:
+  hub:
+    world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+    world-name: prots
+    x: -446.52325822096753
+    y: 127.0
+    z: -1203.5410909114896
+    yaw: 179.60385131835938
+    pitch: 22.33586311340332
+logoutlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -446.4674729554865
+  y: 87.82402122846719
+  z: -1118.7052782222045
+  yaw: 40.100006103515625
+  pitch: 25.820331573486328

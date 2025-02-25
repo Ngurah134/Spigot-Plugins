@@ -1,0 +1,45 @@
+{
+  "uuid": "00000000-0000-0001-0000-000000000001",
+  "disableCustomDrop": false,
+  "monsterCatch": 0,
+  "bigLootCatch": 0,
+  "failedFish": 0,
+  "goodFish": 0,
+  "tournamentsWin": 0,
+  "dropsMap": {
+    "1693160825756": {
+      "id": 0,
+      "uuidAllCatch": "7ae99241-15a2-3ee7-b1da-5ec022216fc0",
+      "allCatch": 2,
+      "uuidMaxSize": "7ae99241-15a2-3ee7-b1da-5ec022216fc0",
+      "maxSize": 1.923,
+      "minSize": 0.0
+    },
+    "1693242715663": {
+      "id": 0,
+      "uuidAllCatch": "7ae99241-15a2-3ee7-b1da-5ec022216fc0",
+      "allCatch": 1,
+      "uuidMaxSize": "7ae99241-15a2-3ee7-b1da-5ec022216fc0",
+      "maxSize": 0.0,
+      "minSize": 0.0
+    },
+    "1693160834023": {
+      "id": 0,
+      "uuidAllCatch": "ed81e06c-8e2c-35be-8a44-9b24a5a0de7f",
+      "allCatch": 1,
+      "uuidMaxSize": "ed81e06c-8e2c-35be-8a44-9b24a5a0de7f",
+      "maxSize": 3.768,
+      "minSize": 0.0
+    },
+    "1693160837540": {
+      "id": 0,
+      "uuidAllCatch": "ed81e06c-8e2c-35be-8a44-9b24a5a0de7f",
+      "allCatch": 1,
+      "uuidMaxSize": "ed81e06c-8e2c-35be-8a44-9b24a5a0de7f",
+      "maxSize": 2.003,
+      "minSize": 0.0
+    }
+  },
+  "level": 0,
+  "experience": 0.0
+}

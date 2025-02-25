@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.63.77.127
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1739459219206
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1739634389161
+  login: 1739634249178
+money: '0'
+last-account-name: YaboiHermes
+lastlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -491.20030418472106
+  y: 109.39078507643913
+  z: -1237.018069280972
+  yaw: -138.544677734375
+  pitch: 33.074832916259766
+logoutlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -466.9642683173431
+  y: 103.70952026406945
+  z: -1222.9277676150025
+  yaw: -22.06722640991211
+  pitch: 13.934662818908691
