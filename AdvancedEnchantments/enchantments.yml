@@ -260,32 +260,32 @@ harvest:
       effects:
         - BREAK_BLOCK @Trench{r=3,it=true}
 
-autoreel:
-  display: '%group-color%Auto Reel'
-  description: "Automatically reels in the fishing rod when it gets a bite."
-  applies-to: Fishing Rod
-  type: BITE_HOOK
-  group: ULTIMATE
-  settings:
-    showActionBar: true
-  applies:
-    - FISHING_ROD
-  levels:
-    '1':
-      chance: 25
-      effects:
-        - AUTO_REEL
-    '2':
-      chance: 50
-      effects:
-        - AUTO_REEL
-    '3':
-      chance: 75
-      effects:
-        - AUTO_REEL
-    '4':
-      effects:
-        - AUTO_REEL
+# autoreel:
+#   display: '%group-color%Auto Reel'
+#   description: "Automatically reels in the fishing rod when it gets a bite."
+#   applies-to: Fishing Rod
+#   type: BITE_HOOK
+#   group: ULTIMATE
+#   settings:
+#     showActionBar: true
+#   applies:
+#     - FISHING_ROD
+#   levels:
+#     '1':
+#       chance: 25
+#       effects:
+#         - AUTO_REEL
+#     '2':
+#       chance: 50
+#       effects:
+#         - AUTO_REEL
+#     '3':
+#       chance: 75
+#       effects:
+#         - AUTO_REEL
+#     '4':
+#       effects:
+#         - AUTO_REEL
 gemify:
   display: '%group-color%Gemify'
   description: Chance for an ore block to turn into it's block
@@ -3140,7 +3140,7 @@ curse:
   description: Chance to give your enemy mining fatigue.
   applies-to: Armor
   type: DEFENSE;DEFENSE_MOB
-  group: ELITE
+  group: LEGENDARY
   applies:
     - ALL_ARMOR
   levels:
@@ -3473,7 +3473,7 @@ guardians:
   type: DEFENSE
   settings:
     showActionBar: true
-  group: ULTIMATE
+  group: LEGENDARY
   applies:
     - ALL_ARMOR
   levels:
@@ -3678,7 +3678,7 @@ implants:
       time: 5
       effects:
         - ADD_FOOD:1
-obsidianshield:
+obsidianshield: #secret fishing loot
   display: '%group-color%Obsidianshield'
   description: Gives permanent fire resistance.
   applies-to: Armor
@@ -3804,7 +3804,7 @@ poseidon:
   description: Increases damage dealt with Tridents.
   applies-to: Trident
   type: SHOOT;SHOOT_MOB
-  group: ELITE
+  group: ULTIMATE
   applies:
     - TRIDENT
   levels:
@@ -3927,14 +3927,14 @@ confuse:
       cooldown: 8
       effects:
         - POTION:CONFUSION:3:60 @Victim
-disintegrate:
+disintegrate: 
   display: '%group-color%Disintegrate'
   description: |-
     Chance to deal extra durability damage to
     all enemy armor with every attack.
   applies-to: Swords
   type: ATTACK
-  group: ULTIMATE
+  group: ULTIMATE #naik fable
   applies:
     - ALL_SWORD
   levels:
@@ -4150,7 +4150,7 @@ missile:
       cooldown: 3
       effects:
         - FIREBALL @Victim
-longbow:
+longbow: #revemp
   display: '%group-color%Longbow'
   description: |-
     Greatly increases damage dealt
@@ -4793,7 +4793,7 @@ chaos:
         - POTION:WITHER:1:60 @Victim
         - POTION:WEAKNESS:0:100 @Victim
     '5':
-      chance: 10
+      chance: 12
       cooldown: 40
       effects:
         - POTION:WITHER:1:60 @Victim
@@ -4905,14 +4905,14 @@ barbarian:
         - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
     '3':
       chance: 19
-      cooldown: 8
+      cooldown: 8 #cooldown naik
       conditions:
         - '%attacker is holding% contains AXE : %allow%'
       effects:
         - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
     '4':
       chance: 25
-      cooldown: 8
+      cooldown: 8 #cooldown naik
       conditions:
         - '%attacker is holding% contains AXE : %allow%'
       effects:
@@ -4983,7 +4983,7 @@ gears:
   description: Added speed when equipped.
   applies-to: Boots
   type: EFFECT_STATIC
-  group: LEGENDARY
+  group: LEGENDARY #ultimate
   applies:
     - ALL_BOOTS
   levels:
@@ -5263,7 +5263,7 @@ blacksmith:
         - ADD_DURABILITY_CURRENT_ITEM:4
         - HALF_DAMAGE
         - PARTICLE:BLOCK_DUST:20:1
-immortal:
+immortal: #buff?
   display: '%group-color%Immortal'
   description: |-
     Chance to prevents your armor
@@ -5851,7 +5851,7 @@ launch:
   type: RIGHT_CLICK
   settings:
     showActionBar: true
-  group: LEGENDARY
+  group: LEGENDARY  #ganti group
   applies:
     - ALL_SWORD
   levels:
