@@ -3683,7 +3683,7 @@ obsidianshield: #secret fishing loot
   description: Gives permanent fire resistance.
   applies-to: Armor
   type: EFFECT_STATIC
-  group: ULTIMATE
+  group: SECRET
   applies:
     - ALL_ARMOR
   levels:
