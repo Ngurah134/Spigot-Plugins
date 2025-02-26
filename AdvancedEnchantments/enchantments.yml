@@ -559,18 +559,18 @@ jellylegs:
     '3':
       effects:
         - CANCEL_EVENT
-# wings:
-#   display: '%group-color%Wings'
-#   description: Allows flying when worn.
-#   applies-to: Boots
-#   type: EFFECT_STATIC
-#   group: LEGENDARY
-#   applies:
-#     - ALL_BOOTS
-#   levels:
-#     '1':
-#       effects:
-#         - FLY
+wings:
+  display: '%group-color%Wings'
+  description: Allows flying when worn.
+  applies-to: Boots
+  type: EFFECT_STATIC
+  group: UNOBTAINABLE
+  applies:
+    - ALL_BOOTS
+  levels:
+    '1':
+      effects:
+        - FLY
 aquatic:
   display: '%group-color%Aquatic'
   description: Breathe underwater.

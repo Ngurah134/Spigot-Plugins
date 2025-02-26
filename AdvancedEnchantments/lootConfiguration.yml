@@ -6,7 +6,7 @@
 # ------ Random Loot Section ------ #
 randomLoot:
   # Should random loot be generated in world?
-  randomLootEnabled: false
+  randomLootEnabled: true
 
   # Maximum number of custom items to be generated in a random loot container
   maxItemsPerContainer: 2
@@ -45,7 +45,7 @@ randomLoot:
 # ------ Villager Trades Section ------ #
 villagerTrades:
   # Should villagers be able to trade custom books / items?
-  villagerTradesEnabled: false
+  villagerTradesEnabled: true
 
   # Should villagers trade admin items as well? E.g. Whitescroll, Blackscroll, Magic Dust
   # If set to false, they will only trade custom enchantment books
