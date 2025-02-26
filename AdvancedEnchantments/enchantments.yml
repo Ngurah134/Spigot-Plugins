@@ -3934,7 +3934,7 @@ disintegrate:
     all enemy armor with every attack.
   applies-to: Swords
   type: ATTACK
-  group: ULTIMATE #naik fable
+  group: FABLED #naik fable
   applies:
     - ALL_SWORD
   levels:
@@ -4150,7 +4150,7 @@ missile:
       cooldown: 3
       effects:
         - FIREBALL @Victim
-longbow: #revemp
+longbow:
   display: '%group-color%Longbow'
   description: |-
     Greatly increases damage dealt
@@ -4905,14 +4905,14 @@ barbarian:
         - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
     '3':
       chance: 19
-      cooldown: 8 #cooldown naik
+      cooldown: 12 #cooldown naik
       conditions:
         - '%attacker is holding% contains AXE : %allow%'
       effects:
         - INCREASE_DAMAGE:<random number>25-100</random number> @Victim
     '4':
       chance: 25
-      cooldown: 8 #cooldown naik
+      cooldown: 12 #cooldown naik
       conditions:
         - '%attacker is holding% contains AXE : %allow%'
       effects:
@@ -4983,7 +4983,7 @@ gears:
   description: Added speed when equipped.
   applies-to: Boots
   type: EFFECT_STATIC
-  group: LEGENDARY #ultimate
+  group: ULTIMATE #ultimate
   applies:
     - ALL_BOOTS
   levels:
@@ -5276,22 +5276,22 @@ immortal: #buff?
   levels:
     '1':
       chance: 12
-      cooldown: 40
+      cooldown: 30
       effects:
         - ADD_DURABILITY_ARMOR:10 @Victim
     '2':
       chance: 18
-      cooldown: 40
+      cooldown: 30
       effects:
         - ADD_DURABILITY_ARMOR:10 @Victim
     '3':
       chance: 25
-      cooldown: 40
+      cooldown: 25
       effects:
         - ADD_DURABILITY_ARMOR:10 @Victim
     '4':
       chance: 31
-      cooldown: 40
+      cooldown: 25
       effects:
         - ADD_DURABILITY_ARMOR:10 @Victim
 unbreakable:
@@ -5577,30 +5577,30 @@ disarm:
       cooldown: 20
       effects:
         - DISARM @Victim
-# phoenix:
-#   display: '%group-color%Phoenix'
-#   description: Chance to revive yourself when killed.
-#   applies-to: Chestplates
-#   type: DEATH
-#   group: FABLED
-#   applies:
-#     - ALL_CHESTPLATE
-#   levels:
-#     '1':
-#       chance: 5
-#       cooldown: 20
-#       effects:
-#         - REVIVE @Victim
-#     '2':
-#       chance: 7
-#       cooldown: 20
-#       effects:
-#         - REVIVE @Victim
-#     '3':
-#       chance: 9
-#       cooldown: 20
-#       effects:
-#         - REVIVE @Victim
+phoenix:
+  display: '%group-color%Phoenix'
+  description: Chance to revive yourself when killed.
+  applies-to: Chestplates
+  type: DEATH
+  group: FABLED
+  applies:
+    - ALL_CHESTPLATE
+  levels:
+    '1':
+      chance: 5
+      cooldown: 20
+      effects:
+        - REVIVE @Victim
+    '2':
+      chance: 7
+      cooldown: 20
+      effects:
+        - REVIVE @Victim
+    '3':
+      chance: 9
+      cooldown: 20
+      effects:
+        - REVIVE @Victim
 scare:
   display: '%group-color%Scare'
   description: |-
@@ -5851,7 +5851,7 @@ launch:
   type: RIGHT_CLICK
   settings:
     showActionBar: true
-  group: LEGENDARY  #ganti group
+  group: ELITE  #ganti group
   applies:
     - ALL_SWORD
   levels:
