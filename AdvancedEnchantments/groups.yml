@@ -136,7 +136,7 @@ groups:
       chance: 22
   UNOBTAINABLE:
     global-color: "&5"
-    group-name: "UNOBTAINABLE"
+    group-name: "Unobtainable"
     item:
       type: FIREWORK_CHARGE
       id: 0
@@ -154,9 +154,9 @@ groups:
       success: 20-50
       # Chance to give Magic dust instead of Mystery dust
       chance: 50
-  SECERT:
+  SECRET:
     global-color: "&c"
-    group-name: "SECERT"
+    group-name: "Secret"
     item:
       type: FIREWORK_CHARGE
       id: 0
