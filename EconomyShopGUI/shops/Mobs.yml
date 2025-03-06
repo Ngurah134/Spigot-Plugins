@@ -24,7 +24,7 @@ pages:
       '6':
         material: ENDER_PEARL
         buy: 7
-        sell: 1.75
+        sell: 0.7
       '7':
         material: FEATHER
         buy: 6
@@ -68,7 +68,7 @@ pages:
       '18':
         material: SLIME_BALL
         buy: 5
-        sell: 1.25
+        sell: 0.5
       '19':
         material: SPIDER_EYE
         buy: 7
@@ -76,4 +76,4 @@ pages:
       '20':
         material: STRING
         buy: 7
-        sell: 1.75
+        sell: 0.5

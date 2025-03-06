@@ -20,7 +20,7 @@ pages:
       '5':
         material: MAGMA_BLOCK
         buy: 33.63
-        sell: 8.41
+        sell: 4.41
       '6':
         material: PACKED_ICE
         buy: 13.5
@@ -32,7 +32,7 @@ pages:
       '8':
         material: SLIME_BLOCK
         buy: 47.25
-        sell: 11.82
+        sell: 4.5
       '9':
         material: SNOW_BLOCK
         buy: 12.6
@@ -156,7 +156,7 @@ pages:
       '50':
         material: BASALT
         buy: 40
-        sell: 10
+        sell: 5
       '51':
         material: COBBLESTONE
         buy: 0.68
@@ -942,64 +942,64 @@ pages:
       '247':
         material: BLACK_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '248':
         material: BLUE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '249':
         material: BROWN_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '250':
         material: CYAN_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '251':
         material: GRAY_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '252':
         material: GREEN_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '253':
         material: LIGHT_BLUE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '254':
         material: LIGHT_GRAY_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '255':
         material: LIME_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '256':
         material: MAGENTA_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '257':
         material: ORANGE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '258':
         material: PINK_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '259':
         material: PURPLE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '260':
         material: RED_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '261':
         material: WHITE_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35
       '262':
         material: YELLOW_WOOL
         buy: 29.4
-        sell: 7.35
+        sell: 5.35

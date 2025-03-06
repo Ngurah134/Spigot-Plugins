@@ -32,7 +32,7 @@ pages:
       '8':
         material: CARROT
         buy: 5
-        sell: 1.25
+        sell: 0.5
       '9':
         material: CHORUS_FLOWER
         buy: 1
@@ -84,11 +84,11 @@ pages:
       '21':
         material: POTATO
         buy: 5
-        sell: 1.25
+        sell: 0.5
       '22':
         material: PUMPKIN
         buy: 5
-        sell: 1.25
+        sell: 0.5
       '23':
         material: PUMPKIN_SEEDS
         buy: 1.19

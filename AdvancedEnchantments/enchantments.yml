@@ -6365,4 +6365,4 @@ magnet:
       cooldown: 5
       effects:
         - PULL_CLOSER:3 @Victim
-        # test
+        

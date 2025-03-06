@@ -280,5 +280,5 @@ pages:
       '66':
         material: OMINOUS_BOTTLE
         buy: 17500
-        sell: 3875
+        sell: 100
         ominous-strength: 5
