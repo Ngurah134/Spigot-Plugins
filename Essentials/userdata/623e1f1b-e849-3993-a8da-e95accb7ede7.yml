@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.197.205.169
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740585306049
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740586924922
+  login: 1740586118417
+money: '0'
+last-account-name: Amogusssy
+lastlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -451.5
+  y: 127.0
+  z: -1205.5
+  yaw: 171.9953155517578
+  pitch: 19.935375213623047
+logoutlocation:
+  world: 26a320d8-fe0d-4d91-b7e3-48c231aeef34
+  world-name: prots
+  x: -424.97890616113875
+  y: 91.0
+  z: -1206.4259121164757
+  yaw: 91.87109375
+  pitch: 21.15336036682129
