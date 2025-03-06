@@ -1,0 +1,159 @@
+advancedskills:
+  command: advancedskills
+  permission: advancedskills.command.skills
+  description: Skills command
+  aliases:
+    - askills
+    - skills
+  subcommands:
+    reload:
+      command: reload
+      permission: advancedskills.command.reload
+      description: Reload the plugin
+      aliases: [ ]
+    info:
+      command: info
+      permission: advancedskills.command.info
+      description: "Get information about player's progress"
+      aliases: [ ]
+    setprogress:
+      command: setprogress
+      permission: advancedskills.command.setprogress
+      description: "Set player's progress for a skill"
+      aliases: [ ]
+    addpoints:
+      command: addpoints
+      permission: advancedskills.command.addpoints
+      description: "Add points to a player's skill"
+      aliases: [ ]
+    mana:
+      command: mana
+      permission: advancedskills.command.mana
+      description: "Get player's mana"
+      aliases: [ ]
+    setmana:
+      command: setmana
+      permission: advancedskills.command.setmana
+      description: "Set player's mana"
+      aliases: [ ]
+    addmana:
+      command: addmana
+      permission: advancedskills.command.addmana
+      description: "Add mana to a player"
+      aliases: [ ]
+    removemana:
+      command: removemana
+      permission: advancedskills.command.removemana
+      description: "Remove mana from a player"
+      aliases: [ ]
+    class:
+      command: class
+      permission: advancedskills.command.class
+      description: "Get player's class"
+      aliases: [ ]
+    setclass:
+      command: setclass
+      permission: advancedskills.command.setclass
+      description: "Set player's class"
+      aliases: [ ]
+    reset:
+      command: reset
+      permission: advancedskills.command.reset
+      description: "Reset player's progress"
+      aliases: [ ]
+    testtalent:
+      command: testtalent
+      permission: advancedskills.command.testtalent
+      description: "Test a talent"
+      aliases: [ ]
+classes:
+  command: classes
+  permission: advancedskills.command.classes
+  description: Classes command
+  aliases:
+    - class
+    - advancedclasses
+mana:
+  command: mana
+  permission: advancedskills.command.mana
+  description: See your mana!
+  aliases: [ ]
+talents:
+  command: talents
+  permission: advancedskills.command.talents
+  description: "Talents command"
+  aliases:
+    - talent
+    - advancedtalents
+party:
+  command: party
+  permission: advancedskills.command.party
+  description: "Party Command"
+  aliases: [ ]
+  subcommands:
+    create:
+      command: create
+      permission: advancedskills.command.createparty
+      description: "Create a party"
+      aliases: [ ]
+    leave:
+      command: leave
+      permission: advancedskills.command.leaveparty
+      description: "Leave from a party"
+      aliases: [ ]
+    info:
+      command: info
+      permission: advancedskills.command.info
+      description: "Show the info of a party"
+      aliases: [ ]
+    set-password:
+      command: set-password
+      permission: advancedskills.command.set-password
+      description: "Sets the password of a party"
+      aliases: [ ]
+    get-password:
+      command: get-password
+      permission: advancedskills.command.get-password
+      description: "Shows the password of a party"
+      aliases: [ ]
+    clear-password:
+      command: clear-password
+      permission: advancedskills.command.clear-password
+      description: "Clear the password of a party"
+      aliases: [ ]
+    kick:
+      command: kick
+      permission: advancedskills.command.kick
+      description: "Kicks a party member"
+      aliases: [ ]
+    set-owner:
+      command: set-owner
+      permission: advancedskills.command.set-owner
+      description: "Makes owner a party member"
+      aliases: [ ]
+    join:
+      command: join
+      permission: advancedskills.command.join
+      description: "Join to the party of a player"
+      aliases: [ ]
+    accept:
+      command: join
+      permission: advancedskills.command.join
+      description: "Accept an invite of a player"
+      aliases: [ ]
+    disband:
+      command: join
+      permission: advancedskills.command.disband
+      description: "Disband your party"
+      aliases: [ ]
+    invite:
+      command: join
+      permission: advancedskills.command.invite
+      description: "Invite a player to join your party"
+      aliases: [ ]
+party-chat:
+  command: party-chat
+  permission: advancedskills.command.party-chat
+  description: "Enable or disable the party chat"
+  aliases:
+    - pc
